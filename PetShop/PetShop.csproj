@@ -24,4 +24,8 @@
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\README.txt" />
+  </ItemGroup>
+
 </Project>
