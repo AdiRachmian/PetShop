@@ -1,0 +1,31 @@
+﻿@model List<Animal>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Pet Shop Boys</h1>
+    <p>The absolute best pet shop in town</p>
+</div>
+
+<div>
+    <p class="fw-bold">The two most highly rated pets today are:</p>
+</div>
+
+
+<div class="row">
+    @foreach (var animal in Model)
+    {
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="~/uploads/@Url.Content(animal.PictureName)" alt="@Url.Content(animal.Name) Image" class="top-image" />
+                <div class="card-body">
+                    <h5 class="card-title">@animal.Name</h5>
+                    <p class="card-text">@animal.Description</p>
+                    <p class="card-text">@animal.Comments.Count comments</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

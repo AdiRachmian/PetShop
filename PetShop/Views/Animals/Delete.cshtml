@@ -1,0 +1,19 @@
+﻿@model PetShop.Models.Animal
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+<br />
+<h2>Are you sure you want to delete @Model.Name?</h2>
+<h3>This action is permanent.</h3>
+<div>
+    <hr />
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="AnimalId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Catalog">Back to List</a>
+    </form>
+</div>

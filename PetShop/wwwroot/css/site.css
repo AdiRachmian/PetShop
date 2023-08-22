@@ -1,0 +1,84 @@
+body {
+    background-color: #F0EFEB;
+    cursor: url(\pictures\leopard.ani);
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.square-image {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #6B705C;
+}
+
+.btn {
+    color: white;
+}
+
+.btn-pink {
+    background-color: #B5B7AD;
+}
+
+#edit {
+    background-color: #979A8C;
+}
+
+#delete {
+    background-color: #797E6C;
+}
+
+.row {
+    margin: 0.2rem;
+}
+
+.comments-section {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.top-card {
+    background-color: rgb(255, 194, 209, 0.3);
+    padding: 10px;
+}
+
+.top-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.table {
+    width: 75%;
+    margin: 0 auto !important;
+}
