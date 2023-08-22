@@ -11,15 +11,6 @@ usage instructions, and more.
 - Leave comments on animal listings for user interaction.
 - Responsive design for seamless user experience on various devices.
 
-## Getting Started
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [.NET Core SDK](https://dotnet.microsoft.com/download)
-- [Entity Framework Core CLI](https://docs.microsoft.com/en-us/ef/core/cli/dotnet)
-
 ### Installation
 
 1. Clone the repository:
